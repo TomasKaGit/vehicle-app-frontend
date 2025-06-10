@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import LoginModal from "./LoginModal";
 import api from "../axiosConfig";
-import "../Css/Header.css";
+import "../css/Header.css";
 
 function Header({ isLoggedIn, setIsLoggedIn, refreshDepartments }) {
   const [showDropdown, setShowDropdown] = useState(false);

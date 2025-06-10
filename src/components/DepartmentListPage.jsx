@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import api from "../axiosConfig";
-import "../Css/DepartmentListPage.css";
+import "../css/DepartmentListPage.css";
 
 function DepartmentListPage() {
   const [departments, setDepartments] = useState([]); // Padalinių sąrašas

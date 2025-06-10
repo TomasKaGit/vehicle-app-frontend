@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import api from "../axiosConfig";
-import "../Css/LoginModal.css";
+import "../css/LoginModal.css";
 
 function LoginModal({ setIsLoggedIn, onClose }) {
   const [username, setUsername] = useState("");

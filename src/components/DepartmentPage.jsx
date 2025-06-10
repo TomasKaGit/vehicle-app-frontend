@@ -8,8 +8,8 @@ import VehicleAddForm from "./department/VehicleAddForm";
 import VehicleEditForm from "./department/VehicleEditForm";
 import AddEmailForm from "./department/AddEmailForm";
 
-import "../Css/DepartmentPage.css";
-import "../Css/VehicleCard.css";
+import "../css/DepartmentPage.css";
+import "../css/VehicleCard.css";
 
 function DepartmentPage({ isLoggedIn, setRefreshDepartments }) {
   const { id } = useParams();

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import api from "../axiosConfig"; // pritaikytas axios su JWT token palaikymu
-import "../Css/VehicleSearchPage.css"; // stilius
+import "../css/VehicleSearchPage.css"; // stilius
 
 function VehicleSearchPage() {
   const [reg, setReg] = useState(""); // registracijos numerio įvestis
