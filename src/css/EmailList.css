@@ -1,0 +1,50 @@
+.email-section {
+  margin-top: 2rem;
+}
+
+.email-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.email-table th,
+.email-table td {
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  color: #333;
+  text-align: left;
+}
+
+.email-table th {
+  background-color: #f0f0f0;
+}
+
+.email-actions {
+  text-align: right;
+}
+
+.email-actions button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+.email-actions button:hover {
+  background-color: #ddd;
+}
+
+.add-email-btn {
+  margin-top: 0.8rem;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-email-btn:hover {
+  text-decoration: underline;
+}

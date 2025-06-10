@@ -1,0 +1,62 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(180, 180, 180, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.login-modal {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(120, 120, 120, 0.2);
+  min-width: 300px;
+}
+
+.login-modal h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.login-modal input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-actions button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #999;
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.modal-actions button:hover {
+  background-color: #ddd;
+}
+
+.error-msg {
+  color: #b00020;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

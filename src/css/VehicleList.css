@@ -1,0 +1,50 @@
+.vehicle-section {
+  margin-top: 2rem;
+}
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.vehicle-table th,
+.vehicle-table td {
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  color: #333;
+  text-align: left;
+}
+
+.vehicle-table th {
+  background-color: #f0f0f0;
+}
+
+.vehicle-actions {
+  text-align: right;
+}
+
+.vehicle-actions button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+.vehicle-actions button:hover {
+  background-color: #ddd;
+}
+
+.add-vehicle-btn {
+  margin-top: 0.8rem;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-vehicle-btn:hover {
+  text-decoration: underline;
+}

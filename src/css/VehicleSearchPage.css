@@ -1,0 +1,57 @@
+.search-container {
+  padding: 2rem;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  color: #333;
+}
+
+.search-box {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(120, 120, 120, 0.1);
+}
+
+.search-box h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border: 1px solid #999;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #ddd;
+}
+
+.vehicle-result {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  line-height: 1.6;
+}

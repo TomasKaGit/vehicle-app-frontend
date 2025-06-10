@@ -1,0 +1,38 @@
+.department-list {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  color: #333;
+}
+
+.department-list h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.department-list ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.department-list li {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s ease;
+}
+
+.department-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.department-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}

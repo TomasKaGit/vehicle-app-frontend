@@ -1,0 +1,41 @@
+.vehicle-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.vehicle-card.expired {
+  border-left: 5px solid #cc0000;
+  background-color: #fcebea;
+}
+
+.vehicle-card.warning {
+  border-left: 5px solid #e6b800;
+  background-color: #fff8e1;
+}
+
+.broken-text {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.vehicle-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 400px;
+}
+
+.vehicle-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.checkbox-inline {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
