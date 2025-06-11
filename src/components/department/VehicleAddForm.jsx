@@ -5,6 +5,7 @@ function VehicleAddForm({ departmentId, setVehicles, setShowAddForm }) {
   const [vehicle, setVehicle] = useState({
     brand: "",
     model: "",
+    year: "",
     registrationNumber: "",
     insuranceExpiry: "",
     technicalInspectionExpiry: "",
@@ -58,6 +59,16 @@ function VehicleAddForm({ departmentId, setVehicles, setShowAddForm }) {
         <input
           name="model"
           value={vehicle.model}
+          onChange={handleChange}
+          required
+        />
+      </label>
+
+      <label>
+        Metai:
+        <input
+          name="year"
+          value={vehicle.year}
           onChange={handleChange}
           required
         />
