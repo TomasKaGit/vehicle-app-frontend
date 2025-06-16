@@ -118,13 +118,6 @@ function VehicleAddForm({ departmentId, setVehicles, setShowAddForm }) {
 
       <div style={{ marginTop: "1rem" }}>
         <button type="submit">💾 Įvesti automobilį</button>
-        <button
-          type="button"
-          onClick={() => setShowAddForm(false)}
-          style={{ marginLeft: "0.5rem" }}
-        >
-          ❌ Atšaukti
-        </button>
       </div>
     </form>
   );
