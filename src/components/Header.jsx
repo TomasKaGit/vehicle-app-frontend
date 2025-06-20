@@ -18,7 +18,10 @@ function Header({ isLoggedIn, setIsLoggedIn, refreshDepartments }) {
   const fetchDepartments = () => {
     api
       .get("/departments")
-      .then((res) => setDepartments(res.data))
+      .then((res) => {
+        console.log("Padaliniai iš API:", res.data); // <-- pridėk šitą
+        setDepartments(res.data);
+      })
       .catch((err) => {
         console.error("Klaida gaunant padalinius:", err);
         setDepartments([]);
